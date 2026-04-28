@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phinma Coc Voting Website</title>
+  <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="container">
+      <div class="logo-container">
+        <img src="images/Coc.png" alt="Phinma Coc Logo" class="logo-img">
+        <h2 class="logo-text"> Phinma Voting Website</h2>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#candidates">Candidates</a>
+        <a href="#about">About</a>
+        <a href="#rules">Voting Rules</a>
+        <a href="#contact">Contact</a>
+      </nav>
+        <a class="button">Login</a>
+    </div>
+  </header>
+
+  <!-- HOME -->
+  <section id="home" class="candidate">
+    <div class="image"></div>
+    <div class="container">
+      <div class="candidate-content">
+        <div class="candidate-text">
+          <h1 class="main-title">Phinma Coc Voting Website</h1>
+          <p class="tagline">Empowering Students • Shaping the Future</p>
+          <p class="description">Cast your vote responsibly and help build a better campus community. This website platform makes it easy and secure for every stundent to participatr in campus elections and choose the leaders who will represent them/p>
+        </div>
+
+        <div class="slider">
+          <div class="slides">
+            <div class="slide active">
+              <img src="images/1da38e55-9706-48e7-bfdb-a13d0d9d92e4.jpg" alt="Highlight 1">
+              <div class="slide-info">
+                <h3>CATHY RAMOS</h3>
+                <p>Leadership • Integrity • Service</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/3e53bc26-2548-4c5b-92db-db68a8190127.jpg" alt="Highlight 2">
+              <div class="slide-info">
+                <h3>LIANE DELA CRUZ</h3>
+                <p>Leadership • Integrity • Service</p>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/1eacbb3e-5840-4362-95c6-6d235ed019e1.jpg" alt="Highlight 3">
+              <div class="slide-info">
+                <h3>ERIC BAUTISTA</h3>
+                <p>Leadership • Integrity • Service</p>
+              </div>
+            </div>
+          </div>
+          <div class="dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CANDIDATES SECTION -->
+  <section id="candidates" class="candidates">
+    <div class="container">
+       <h2 class="section-title">Candidates</h2>
+       
+       <h3 class="position-title">PRESIDENT</h3>
+       <div class="candidates-grid">
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/1da38e55-9706-48e7-bfdb-a13d0d9d92e4.jpg" alt="Candidate 1"></div>
+          <h3>CATHY RAMOS</h3>
+          <p class="position">PRESIDENT</p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/1eacbb3e-5840-4362-95c6-6d235ed019e1.jpg" alt="Candidate 2"></div>
+          <h3>ERIC BAUTISTA</h3>
+          <p class="position">PRESIDENT</p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/3e53bc26-2548-4c5b-92db-db68a8190127.jpg" alt="Candidate 3"></div>
+          <h3>LIANNE DELA CRUZ</h3>
+          <p class="position">PRESIDENT</p>
+          <button class="vote-btn">View</button>
+        </div>
+      </div>
+
+        <h3 class="position-title"> VICE PRESIDENT</h3>
+        <div class="candidates-grid">
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/4b8b8b71-6abc-4a3e-9b53-4cac8b8f434c.jpg" alt="Candidate 4"></div>
+          <h3>ABIGAIL RODRIGUEZ</h3>
+          <p class="position">VICE PRESIDENT</p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/f7dca524-713b-4ad9-a0b3-d8601b813f3a.jpg" alt="Candidate 5"></div>
+          <h3>RICHARD TAN</h3>
+          <p class="position">VICE PRESIDENT</p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/f93fe783-e84e-4107-90ab-2f85c7695bc0.jpg" alt="Candidate 6"></div>
+          <h3>JESS SANTIAGO</h3>
+          <p class="position">VICE PRESIDENT/p>
+          <button class="vote-btn">View</button>
+        </div>
+       </div> 
+
+        <h3 class="position-title">SECRETARY</h3>
+        <div class="candidates-grid">
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/792eef53-f3db-4eda-b37a-e1a772d89676.jpg" alt="Candidate 7"></div>
+          <h3>ETHAN RAMOS</h3>
+          <p class="position">SECRETARY</p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/de956352-6471-41f7-bd5b-375270a2ce40.jpg" alt="Candidate 8"></div>
+          <h3>HAZEL CRUZ</h3>
+          <p class="position">SECRETARY<p>
+          <button class="vote-btn">View</button>
+        </div>
+        <div class="candidate-card">
+          <div class="candidate-image"><img src="images/image.jpg" alt="Candidate 9"></div>
+          <h3>ANA PATRICIA REYES</h3>
+          <p class="position">SECRETARY</p>
+          <button class="vote-btn">View</button>
+        </div>
+      </div>
+
+
+      </div>
+    </div>
+  </section>
+    <div class="green-separator"></div>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-video">
+          <video autoplay muted loop playsinline>
+            <source src="images/videoplayback.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="about-text">
+          <h2>About this Website</h2>
+          <p>This website voting platform allows students of Phinma Cagayan de Oro College to participate in campus elections easily and securely</p>
+          <p>The website provides a simple and transparent way to cast  votes for student leader, ensuring every eligible student can havee their voice without complication</p>
+          <p>Designed with user-friendliness in mind, it offers clear navigation, candidate information, and a smooth voting experience for the whole student body</p>
+          <a href="#" class="learn-more-btn">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="green-separator"></div>
+
+  <!-- VOTING RULES -->
+  <section id="rules" class="rules">
+    <div class="container">
+       <h2 class="section-title">Voting Rules</h2>
+      <div class="rules-grid">
+        <div class="rules-box">
+          <div class="rule-number">01</div>
+          <h3>📍Eligibility</h3>
+          <p>Only current enrolled students with a valid school ID are eligible to vote</p>
+        </div>
+        <div class="rules-box">
+          <div class="rule-number">02</div>
+          <h3>📍Voting Process</h3>
+          <p>Each student can vote for only one candidate per position. Multiple votes for the same position will be cnsidered invalid.</p>
+        </div>
+        <div class="rules-box">
+          <div class="rule-number">03</div>
+          <h3>📍Voting Period</h3>
+          <p>Voting will be open from [Start Date] to [End Date]. Late votes will no be accepted.</p>
+        </div>
+        <div class="rules-box">
+          <div class="rule-number">04</div>
+          <h3>📍Result Announcement</h3>
+          <p>Official results will be annoucned within 48 hours after the voting period closes</p>
+        </div>
+        <div class="rules-box">
+          <div class="rule-number">05</div>
+          <h3>📍Prohibited Actions</h3>
+          <p>Any form of vote buying, campaigning inside the voting areas, or attempts to influence other voters is strictly Prohibited any may results in disqualification.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT US -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <div class="contact-grid">
+        <div class="contact-card">
+          <h3>Carmen Campus</h3>
+          <div class="info-row"><span class="icon">📍</span> Max Suniel Street, Carmen Cagayan de Oro City, 9000, Misamis Oriental</div>
+          <div class="info-row"><span class="icon">📱</span> 0917-376-5105</div>
+          <div class="info-row"><span class="icon">☎️</span> (088) 858-5867 to 69</div>
+          <div class="info-row"><span class="icon">✉️</span> info.coc@phinmaed.com</div>
+        </div>
+        <div class="contact-card">
+          <h3>Puerto Campus</h3>
+          <div class="info-row"><span class="icon">📍</span> Purok 6, Puerto Cagayan de Oro City, 9000, Misamis Oriental</div>
+          <div class="info-row"><span class="icon">📱</span> 0916-131-8980</div>
+          <div class="info-row"><span class="icon">☎️</span> (088) 858-5867 to 69</div>
+          <div class="info-row"><span class="icon">✉️</span> info.coc@phinmaed.com</div>
+        </div>
+        <div class="contact-card">
+          <h3>Iligan Campus</h3>
+          <div class="info-row"><span class="icon">📍</span> Pedro Permites Rd., Brgy. Pala-o, Iligan City</div>
+          <div class="info-row"><span class="icon">📱</span> 0927-120-9941</div>
+          <div class="info-row"><span class="icon">☎️</span> (088) 858-5867 to 69</div>
+          <div class="info-row"><span class="icon">✉️</span> info.coc@phinmaed.com</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Phinma Coc Voting Website. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Slider Script -->
+  <script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlides() {
+      slides.forEach(slide => slide.classList.remove('active'));
+      dots.forEach(dot => dot.classList.remove('active'));
+
+      slideIndex = (slideIndex + 1) % slides.length;
+      slides[slideIndex].classList.add('active');
+      dots[slideIndex].classList.add('active');
+    }
+
+    setInterval(showSlides, 4000);
+
+    function currentSlide(n) {
+      slideIndex = n;
+      showSlides();
+    }
+
+    showSlides();
+  </script>
+
+</body>
+</html>
